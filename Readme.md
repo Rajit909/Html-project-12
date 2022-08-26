@@ -1,6 +1,6 @@
 ![image](https://img.shields.io/badge/project-12-red)
 
-## Project-12  [live Link](https://business-page-design.netlify.app/)
+## Project-12  [live Link](https://html-project-12.netlify.app/)
 
 **Name:** Rajit kumar
 
@@ -17,4 +17,4 @@
 ![image](https://img.shields.io/badge/Full%20stack%20JS%20bootcamp-Hitesh%20Chaudhary-lightgrey)
 
 
-![image](https://github.com/Rajit909/Html-project-12/12.png)
+![image](https://github.com/Rajit909/Html-project-12/blob/main/12.png)
