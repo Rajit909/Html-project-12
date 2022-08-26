@@ -321,31 +321,9 @@ footer{
 
 /* ------Media query------- */
 
-@media only screen and (max-width:600px) {
-    body{
-        width: 200%;
-    }   
-    nav{
-        background-color: #626c78;
-        padding: 10px 5px;
-    }
-    .logo{
-        width: 5%;
-    }
-    .logo img{
-        width: 70px;
-        margin-left: 15px;
-    }
-    .nav-list{
-        gap: 10px;
-        margin-left: 50px;
-    }
-    .nav-list li a{
-        font-size: 12px;
-    }
-    li>.nav-btn{
-        margin-left: 20px;
-       
+@media only screen and (max-width:750px) {
+    .nav-li{
+        display: none;
     }
     /* hero section */
     .hero{
@@ -360,18 +338,24 @@ footer{
     .hero-right h1{
         font-size: 2.4rem;
     }
+    .contact-email{
+        width: 360px;
+    }
+    .contact-email button{
+        right: 10px;
+    }
 .section-1{
     padding: 20px 20px;
+    align-items: center;
     
 }
 .section-1 h1{
-    margin-right: 170px;
     font-size: 2.2rem;
     font-family: "Raleway";
 }
 .numbers{
     padding: 40px 0px;
-    margin-right: 150px;
+    margin-right: 10px;
     justify-content:center;
 }
 .section-1 img{
@@ -384,11 +368,11 @@ footer{
 .section-2 .section-heading{
     text-align: start;
     margin-left: 80px;
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     margin-bottom: 20px;
 }
 .cards{
-    padding-left: 1px;
+    
 }
 .card{
     display: flex;
@@ -403,6 +387,9 @@ footer{
 .card-info h1{
     margin-top: 40px;
     font-size: 1.8rem;
+}
+.card-info p{
+    width: 400px;
 }
 .card img{
     width: 40%;
@@ -421,15 +408,15 @@ footer{
     padding: 20px 50px;
 }
 .sec-3-head{
-    width: 80%;
     gap: 10px;
+    padding-bottom: 20px;
 }
 .sec-3-head h1{
     font-size: 1.2rem;
     padding-bottom: 20px;
 }
 .sec-3-head p{
-    width: 450px;
+    width: 90%;
     line-height: 20px;
     font-size: 10px;
 }
@@ -438,11 +425,11 @@ footer{
     flex-direction: column;
 }
 .team-imgs img{
-    width: 515px;
+    width: 440px;
     height: 580px;
 }
 .team-imgs p{
-    width: 530px;
+    width: 470px;
 }
 .self-center{
     margin-left: 190px;
@@ -474,13 +461,12 @@ footer{
     width: 15px;
 }
 .footer-content{
-    padding: 20px 0;
-    display: flex;
+    padding: 20px 1px;
+    gap:40px;
 }
 .f-content{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
+    padding: 0 1px;
+    margin-left: 1px;
     gap: 5px;
 }
 
