@@ -59,8 +59,8 @@ li>.nav-btn{
     font-weight: 600;
     cursor: pointer;
 }
-/* --hero section */
 
+/* --hero section */
 .hero{
     display: flex;
     flex-direction: row;
@@ -69,6 +69,7 @@ li>.nav-btn{
     justify-content: center;
     gap: 50px;
 }
+
 .hero .hero-left{
     width: 40%;
 }
